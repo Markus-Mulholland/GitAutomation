@@ -6,4 +6,4 @@ branch=$(echo $status | cut -d' ' -f 3)
 
 command="git push --set-upstream origin ${branch}"
 
-eval $command
+eval $comman
